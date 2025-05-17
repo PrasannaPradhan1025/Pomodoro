@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+     background:linear-gradient(to bottom, #3b4ed8, #8e2de2);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+   
+
+    color: white;
+    padding: 22px;
+}
+
+.logo{
+    font-weight: bold;
+}
+
+.header-container .header-links .contact button{
+    padding: 10px;
+    background:linear-gradient(to bottom, #3b4ed8, #8e2de2);
+
+}
+.timer-container{
+    padding: 60px;
+    background-color:  #0d0d0d;
+    color: white;
+    margin:100px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    margin-top: 100px;
+
+    
+}
+.timer-container .timer-title{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+
+}
+.timer-container .timer {
+    font-size: 88px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.timer-container .timer-action{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 40px;
+    
+}
+
+.timer-container .timer-action .start button ,.timer-container .timer-action .stop button,.timer-container .timer-action .reset button{
+    background-color:   #8e2de2;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+
+}
+.about-container{
+     padding: 60px;
+    background-color:  #0d0d0d;
+    color: white;
+    margin:100px auto;
+    max-width: 700px;
+    border-radius: 20px;
+    margin-top: 100px;
+
+}
+.about-container .about-heading{
+    font-size:35px;
+    margin-bottom: 30px;
+}
+
+.about-container .about p{
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+    
+}
