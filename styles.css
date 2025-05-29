@@ -81,13 +81,38 @@ body {
 .about-container .about-heading{
     font-size:35px;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .about-container .about p{
     max-width: 700px;
     margin: 20px auto;
-    line-height: 1.8;
+    line-height: 2;
     letter-spacing: 0.2px;
     word-spacing: 1px;
+     font-family: 'Roboto', sans-serif;
+     color: #b8b2b2;
+     font-size: large;
     
+}
+.about-container .quote .quote-title{
+    font-size: 35px;
+    margin-top: 30px;
+    font-weight: bold;
+
+    
+}
+.about-container .quote .Thequote{
+    margin-top: 40px;
+    padding: 20px;
+}
+.about-container .quote .quote-author{
+    display: flex;
+    justify-content: center;
+}
+
+.start #start:hover ,.stop #stop:hover ,.reset #reset:hover{
+    transform: translate(-1px);
+    
+
 }
